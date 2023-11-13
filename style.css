@@ -1,22 +1,25 @@
 /* 
 pseudo code to plan the flexbox structure
+no resizing, only suggested heights
+four images and section  one and three wrap
+navbar evtl als wrap?
 
 body als flex container column
     header als column
         nav bar als row
             logo
             nav
-        hero als row
+        hero als row wrap
             text
             image
     section one als column  
         random info
-        alle images und text als row
+        alle images und text als row wrap
             ein image und text als column
     section two als column
         quote
         author
-    section 3 als row
+    section 3 als row wrap
         text
         button
     footer
