@@ -1,0 +1,23 @@
+/* 
+pseudo code to plan the flexbox structure
+
+body als flex container column
+    header als column
+        nav bar als row
+            logo
+            nav
+        hero als row
+            text
+            image
+    section one als column  
+        random info
+        alle images und text als row
+            ein image und text als column
+    section two als column
+        quote
+        author
+    section 3 als row
+        text
+        button
+    footer
+*/
