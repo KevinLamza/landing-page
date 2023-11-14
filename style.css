@@ -25,7 +25,10 @@ body als flex container column
     footer
 */
 
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 body {
+    font-family: 'Muli', sans-serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -52,6 +55,14 @@ body {
 .container_section_one {
     width: 800px;
     margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.container_section_one h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;   
 }
 
 .container_section_two {
@@ -59,11 +70,38 @@ body {
     margin: 0 auto;
 }
 
+.container_section_two .p1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.container_section_two .p2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 20px;
+}
+
 .container_section_three {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 12px;
+    margin: 50px;
+    padding: 40px 80px;
+}
+
+.container_section_three button {
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size:18px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: 2px solid #F9FAF8;
 }
 
 .header, .footer {
@@ -74,8 +112,9 @@ body {
 
 .footer {
     margin-top: auto;
-    padding: 0;
+    padding: 20px 0px;
     border: 0;
+    text-align: center;
 }
 
 .header ul {
@@ -103,7 +142,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 300px;
+    width: 350px;
 }
 
 .hero_text h1 {
@@ -127,6 +166,7 @@ body {
 .section_one {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .image_container {
@@ -139,10 +179,12 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .section_three {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -153,6 +195,19 @@ body {
 .section_three_text {
     display: flex;
     flex-direction: column;
+}
+
+.section_three_text .p1 {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section_three_text .p2 {
+    color: #F9FAF8;
+    font-size: 18px;
 }
 
 ul {
